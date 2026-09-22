@@ -13,7 +13,7 @@ public class Cliente {
 
             System.out.println("Seja bem-vindo(a) ao Jogo - Pedra, Papel e Tesoura");
             while (true) {
-                System.out.println("Digite a sua jogada: ");
+                System.out.println("Digite a sua jogada (PEDRA, PAPEL, TESOURA) ou SAIR para terminar: ");
                 String jogada = scanner.nextLine();
                 if(jogada.equalsIgnoreCase("SAIR")) {
                     break;
